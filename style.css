@@ -42,10 +42,11 @@ body{
 }
 
 .result-selection{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     opacity: .5;
 }
 
-.result-selection-winner{
+.result-selection.winner{
     font-size: 2rem;
+    opacity: 1;
 }

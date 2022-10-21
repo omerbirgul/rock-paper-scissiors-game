@@ -10,23 +10,23 @@
 <body>
 
     <div class="selections">
-        <div class="selection">✊</div>
-        <div class="selection">✋</div>
-        <div class="selection">✌️</div>
+        <div class="selection" data-selection="rock">✊</div>
+        <div class="selection" data-selection="paper">✋</div>
+        <div class="selection" data-selection="scissors">✌️</div>
     </div>
 
     <div class="results">
-        <div><h2>You</h2>
-            <span class="result-score">0</span>
+        <div>You
+            <span class="result-score" data-your-score>0</span>
         </div>
 
-        <div><h2>Computer</h2>
-            <span class="result-score">0</span>
+        <div data-final-column>Computer
+            <span class="result-score" data-computer-score>0</span>
         </div>
 
-        <!-- <div class="result-selection-winner">✊</div>
-        <div class="result-selection">✋</div> -->
+
     </div>
     
 </body>
+<script src="script.js"></script>
 </html>
